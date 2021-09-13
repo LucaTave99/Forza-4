@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Connect 4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Progetto di Tecnologie Internet --- Luca Taverna - Giulia Oddi
 
-## Available Scripts
+## Avvio del gioco
 
-In the project directory, you can run:
+Nella directory del progetto, con:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Avvia l'applicazione in modalità sviluppatore.
+Aprendo [http://localhost:3000](http://localhost:3000) viene visualizzato il gioco nel browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Panoramica del gioco
 
-### `npm test`
+Il progetto, realizzato in JavaScript con il supporto del framework React, è una piattaforma
+web che permette ad alcuni utenti di giocare a Forza 4 in modalità peer-to-peer.
+La comunicazione peer-to-peer è stata gestita tramite la libreria PeerJs di JavaScript che
+permette di creare delle entità peer in grado di comunicare tra di loro. Infatti, il server è
+utilizzato solo per la creazione dei peer nel momento in cui essi si connettono al gioco e per
+mettere in comunicazione le due entità. Lo scambio di informazioni necessarie per la
+partita avviene direttamente tramite le due entità peer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Il gioco
 
-### `npm run build`
+Il gioco è una rappresentazione virtuale del classico gioco Forza 4 e quindi è stato realizzato
+tramite una griglia, rappresentata da una matrice di 6 righe x 7 colonne. Ogni giocatore
+deve avere la possibilità di inserire una sola pedina per ogni turno di gioco, dopodiché il
+turno passa al giocatore avversario. Per inserire una pedina il giocatore deve toccare sulla
+colonna desiderata e sarà il sistema a valutare e inserire la pedina nella prima cella libera
+dal basso.
+Per identificare e differenziare i due giocatori sono state scelte due pedine di colori
+differenti: il colore rosso è stato scelto per il peer che inizia la comunicazione e che quindi
+effettuerà la prima mossa nella partita, invece, al secondo peer è stato assegnato il colore
+giallo. Vince il primo utente che riesce a mettere in fila 4 pedine, che possono essere
+disposte in verticale, in orizzontale, oppure nelle diagonali.
+Il gioco può concludersi con la vittoria di un giocatore, oppure con un pareggio nel caso in
+cui tutte le celle risultino piene, ma senza la presenza di 4 pedine uguali in fila. Al termine
+del gioco viene chiesto ai peer se vogliono giocare un’altra partita, in tal caso entrambi
+vengono reindirizzati alla pagina di connessione nella quale devono inserire l’id
+dell’avversario.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
