@@ -1,0 +1,218 @@
+.modal{
+    z-index:3;
+    padding-top:100px;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:rgb(0,0,0);
+    background-color:rgba(0,0,0,0.4)
+}
+.circle-yellow, .circle-red{
+    border: 2px solid darkblue;
+    float: left;
+    font-size: 24px;
+    line-height: 34px;
+    height: 70px;
+    padding: 0;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.circle-red{
+    background-color: red;
+}
+
+.circle-yellow{
+    background-color: yellow;
+}
+
+.newGame{
+    background-color:darkblue;
+    color:white;
+    position:relative;
+    padding:0;
+    font-size:34px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.peer{
+    font-size:18px;
+}
+
+.disconnection, .victory, .defeat{
+    position:relative;
+    padding:0;
+    font-size:30px;
+    text-align: center;
+    display: block;
+}
+
+.disconnection{
+    color:black;
+}
+
+.victory{
+    color: darkgreen;
+}
+
+.defeat{
+    color: darkred
+}
+
+.modal_content{
+    margin:auto;
+    background-color:#fff;
+    position:relative;
+    padding:0;
+    outline:0;
+    width:600px;
+    font-size:34px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.close{
+    position:absolute;
+    right:2px;
+    top:2px;
+    font-size:35px;
+}
+
+.close:hover{
+    color:#000!important;
+    background-color:#ccc!important
+}
+
+input[type=text] {
+    padding: 10px 10px; 
+    line-height: 24px;
+    font-size:24px;
+}
+
+input[type=button]{
+    font-size:30px;
+    padding: 10px 15px; 
+    background-color:darkblue;
+    color:white;
+    text-align:center;
+}
+
+body {
+    margin: 20px;
+}
+  
+input[type=button]:hover{
+    opacity: 0.8;
+}
+
+h1, h2, h3, div, span{
+    text-align:center;
+}
+
+.peerId{
+    font-size: 25px;
+}
+
+.welcome{
+    color: darkblue;
+    font-family:Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    font-size:60px;
+}
+  
+p{
+    font-size:30px;
+    text-align:center;
+}
+
+.colorText{
+    text-align: left;
+}
+
+ol, ul {
+    padding-left: 30px;
+} 
+
+.error{ 
+    color : red;
+}
+
+.yourTurn {
+    background-color: darkgreen;
+    color : white;
+    width : 152px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.opponentTurn { 
+    background-color: darkred;
+    color : white;
+    width : 215px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.game-board {
+    padding-left: 5px;
+    width: 505px;
+    background-color: blue;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square, .square-red, .square-yellow {
+    border: 2px solid darkblue;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 70px;
+    margin-right: 1px;
+    margin-top: 1px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.square {
+    background: rgb(245,245,245);
+}
+
+.square-red {
+    background-color: red;
+}
+
+.square-yellow {
+    background-color: yellow;
+}
+
+.square:hover, .square-red:hover, .square-yellow:hover {
+    opacity: 0.5;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: block;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+}
