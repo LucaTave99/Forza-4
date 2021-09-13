@@ -1,4 +1,4 @@
-# Connect 4
+# Forza 4
 
 Progetto di Tecnologie Internet --- Luca Taverna - Giulia Oddi
 
