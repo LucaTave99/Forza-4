@@ -1,4 +1,4 @@
-# Forza 4
+# ![connect4](./public/connect4.PNG) Forza 4
 
 Progetto di Tecnologie Internet --- Luca Taverna - Giulia Oddi
 
