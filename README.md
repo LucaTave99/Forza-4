@@ -1,5 +1,4 @@
-<img src="./public/connect4.PNG" alt="connect4" width="150"/> 
-# Forza 4
+# <img src="./public/connect4.PNG" alt="connect4" width="150"/> \ Forza 4
 
 Progetto di Tecnologie Internet --- Luca Taverna - Giulia Oddi
 
