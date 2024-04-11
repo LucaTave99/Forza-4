@@ -3,20 +3,6 @@
 
 Progetto di Tecnologie Internet --- Luca Taverna - Giulia Oddi
 
-## Avvio del gioco
-
-Nella directory del progetto, si possono installare tutti i moduli necessari con:
-```
-npm install
-```
-Per avviare l'applicazione:
-
-```
-npm start
-```
-
-Aprendo [http://localhost:3000](http://localhost:3000) viene visualizzato il gioco nel browser.
-
 ## Panoramica del gioco
 
 Il progetto, realizzato in JavaScript con il supporto del framework React, è una piattaforma
@@ -45,4 +31,18 @@ cui tutte le celle risultino piene, ma senza la presenza di 4 pedine uguali in f
 del gioco viene chiesto ai peer se vogliono giocare un’altra partita, in tal caso entrambi
 vengono reindirizzati alla pagina di connessione nella quale devono inserire l’id
 dell’avversario.
+
+## Avvio del gioco
+
+Nella directory del progetto, si possono installare tutti i moduli necessari con:
+```
+npm install
+```
+Per avviare l'applicazione:
+
+```
+npm start
+```
+
+Aprendo [http://localhost:3000](http://localhost:3000) viene visualizzato il gioco nel browser.
 
