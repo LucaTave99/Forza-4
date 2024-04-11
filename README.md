@@ -6,12 +6,15 @@ Progetto di Tecnologie Internet --- Luca Taverna - Giulia Oddi
 ## Avvio del gioco
 
 Nella directory del progetto, con:
-
-### `npm install`
+```
+npm install
+```
 
 Vengono installati tutti i moduli necessari.
 
-### `npm start`
+```
+npm start
+```
 
 Avvia l'applicazione in modalità sviluppatore.\
 Aprendo [http://localhost:3000](http://localhost:3000) viene visualizzato il gioco nel browser.
