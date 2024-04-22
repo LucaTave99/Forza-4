@@ -15,7 +15,10 @@ Il gioco è una rappresentazione virtuale del classico gioco Forza 4 e quindi è
 Ogni giocatore deve avere la possibilità di inserire una sola pedina per ogni turno di gioco, dopodiché il turno passa al giocatore avversario. Per inserire una pedina il giocatore deve toccare sulla colonna desiderata e sarà il sistema a valutare e inserire la pedina nella prima cella libera dal basso. \
 Per identificare e differenziare i due giocatori sono state scelte due pedine di colori differenti: il colore rosso è stato scelto per il peer che inizia la comunicazione e che quindi effettuerà la prima mossa nella partita, invece, al secondo peer è stato assegnato il colore giallo.  
 
-![Griglia di gioco](./public/grid.png "Griglia di Gioco")
+<div style="display: flex;">
+    <img src="./public/grid.png" alt="Griglia di gioco" style="width: 70%;">
+</div>
+<br>
 
 Vince il primo utente che riesce a mettere in fila 4 pedine, che possono essere disposte in verticale, in orizzontale, oppure nelle diagonali. \
 Il gioco può concludersi con la vittoria di un giocatore, oppure con un pareggio nel caso in cui tutte le celle risultino piene, ma senza la presenza di 4 pedine uguali in fila. \
