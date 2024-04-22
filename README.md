@@ -54,16 +54,16 @@ Cliccando sul tasto play, all'utente viene mostrato il proprio peer ID e gli vie
 Una volta collegati, ai due giocatori si aprirà la pagina di gioco vera e propria.
 
 <div style="display: flex;">
-    <img src="./public/your_turn.png" alt="Pagina di Gioco turno del giocatore" style="width: 40%;height:500px">
-    <img src="./public/opponent_turn.png" alt="Pagina di Gioco turno dell'Avversario" style="width: 40%;height:500px">
+    <img src="./public/your_turn.png" alt="Pagina di Gioco turno del giocatore" style="width: 40%;">
+    <img src="./public/opponent_turn.png" alt="Pagina di Gioco turno dell'Avversario" style="width: 40%;">
 </div>
 <br>
 
 Nel caso in cui si verifichi la vittoria o la sconfitta di un giocatore, questa verrà notificata tramite un popup.
 
 <div style="display: flex;">
-    <img src="./public/victory.png" alt="Pagina di Vittoria" style="width: 40%;height:160px">
-    <img src="./public/defeat.png" alt="Pagina di Sconfitta" style="width: 40%;height:160px">
+    <img src="./public/victory.png" alt="Pagina di Vittoria" style="width: 40%;">
+    <img src="./public/defeat.png" alt="Pagina di Sconfitta" style="width: 40%;">
 </div>
 <br>
 
