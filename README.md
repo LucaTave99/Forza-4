@@ -5,8 +5,8 @@ Progetto di Tecnologie Internet --- Luca Taverna - Giulia Oddi
 
 ## Panoramica del gioco
 
-Il progetto, realizzato in JavaScript con il supporto del framework React, è una piattaforma web che permette ad alcuni utenti di giocare a Forza 4 in modalità peer-to-peer. \
-La comunicazione peer-to-peer è stata gestita tramite la libreria PeerJs di JavaScript che permette di creare delle entità peer in grado di comunicare tra di loro. Infatti, il server è utilizzato solo per la creazione dei peer nel momento in cui essi si connettono al gioco e per mettere in comunicazione le due entità. \
+Il progetto, realizzato in JavaScript con il supporto del framework [https://react.dev/](React), è una piattaforma web che permette ad alcuni utenti di giocare a Forza 4 in modalità peer-to-peer. \
+La comunicazione peer-to-peer è stata gestita tramite la libreria [https://peerjs.com/](PeerJs) di JavaScript che permette di creare delle entità peer in grado di comunicare tra di loro. Infatti, il server è utilizzato solo per la creazione dei peer nel momento in cui essi si connettono al gioco e per mettere in comunicazione le due entità. \
 Lo scambio di informazioni necessarie durante la partita avviene quindi direttamente tramite le due entità peer.
 
 ## Il gioco
