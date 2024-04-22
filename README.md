@@ -40,33 +40,45 @@ Aprendo [http://localhost:3000](http://localhost:3000) viene visualizzato il gio
 ## Interfaccia Utente
 La prima schermata che viene mostrata all'utente che vuole giocare una partita è la seguente. 
 
-![Pagina iniziale](./public/opening_page.png "Pagina Iniziale")
+<div style="display: flex;">
+    <img src="./public/opening_page.png" alt="Pagina iniziale" style="width: 70%;">
+</div>
 
 Cliccando sul tasto play, all'utente viene mostrato il proprio peer ID e gli viene chiesto se vuole inserire l'ID del proprio avversario. 
 
-![Pagina Ricerca Avversario](./public/id_page.png "Pagina Ricerca Avversario")
+<div style="display: flex;">
+    <img src="./public/id_page.png" alt="Pagina Ricerca Avversario" style="width: 70%;">
+</div>
+<br>
 
 Una volta collegati, ai due giocatori si aprirà la pagina di gioco vera e propria.
 
 <div style="display: flex;">
-    <img src="./public/your_turn.png" alt="Pagina di Gioco turno del giocatore" style="width: 40%;">
-    <img src="./public/opponent_turn.png" alt="Pagina di Gioco turno dell'Avversario" style="width: 40%;">
+    <img src="./public/your_turn.png" alt="Pagina di Gioco turno del giocatore" style="width: 40%;height:200px">
+    <img src="./public/opponent_turn.png" alt="Pagina di Gioco turno dell'Avversario" style="width: 40%;height:200px">
 </div>
 <br>
 
 Nel caso in cui si verifichi la vittoria o la sconfitta di un giocatore, questa verrà notificata tramite un popup.
 
 <div style="display: flex;">
-    <img src="./public/victory.png" alt="Pagina di Vittoria" style="width: 40%;">
-    <img src="./public/defeat.png" alt="Pagina di Sconfitta" style="width: 40%;">
+    <img src="./public/victory.png" alt="Pagina di Vittoria" style="width: 40%;height:80px">
+    <img src="./public/defeat.png" alt="Pagina di Sconfitta" style="width: 40%;height:80px">
 </div>
 <br>
 
 Nel caso in cui tutta la griglia venga riempita senza la vittoria di uno dei due giocatori, verrà mostrato un popup di pareggio della partita.
 
-![Pagina di Pareggio](./public/tie.png "Pagina di Pareggio")
+
+<div style="display: flex;">
+    <img src="./public/tie.png " alt="Pagina di Pareggio" style="width: 70%;">
+</div>
+<br>
 
 &Eacute; stata anche gestita la disconnessione di uno dei due giocatori. \
 Nel caso accada che un utente si disconnetta infatti, all'altro giocatore verrà notificato tale evento, e gli verrà chiesto se vuole cercare un nuovo avversario.
 
-![Pagina di Disconnessione](./public/disconnection.png "Pagina di Disconnessione")
+<div style="display: flex;">
+    <img src="./public/disconnection.png" alt="Pagina di Disconnessione" style="width: 70%;">
+</div>
+<br>
